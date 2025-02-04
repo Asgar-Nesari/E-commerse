@@ -15,6 +15,7 @@ import NotFound from "./Components/NotFound";
 import KeyBoard from "./Components/allcarts/KeyBoard";
 import GamingMonitor from "./Components/allcarts/GamingMonitor";
 import Chair from "./Components/allcarts/Chair";
+import Dress from "./Components/allcarts/Dress";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path="/keyboard" element={<KeyBoard/>} />
           <Route path="/gamingmonitor" element={<GamingMonitor/>} />
           <Route path="/chair" element={<Chair/>} />
+          <Route path="/dress" element={<Dress/>} />
 
           <Route path="/Error" element={<NotFound/>} />
           <Route path='*' element={<Navigate to="/Error"/>} />

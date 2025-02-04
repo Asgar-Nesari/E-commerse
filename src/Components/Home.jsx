@@ -19,10 +19,10 @@ function Home() {
       tag: "-50%",
       image:
         "https://cdn3d.iconscout.com/3d/premium/thumb/joystick-3d-icon-download-in-png-blend-fbx-gltf-file-formats--game-controller-gamepad-console-gaming-tool-pack-video-games-icons-7869746.png?f=webp",
-      message: 'Halvik',
+      message: "Halvik",
       offer: "$1120",
       reoffer: "$1230",
-      show:<Link to='/halvik'>Shop Now!</Link>
+      show: <Link to="/halvik">Shop Now!</Link>,
     },
     {
       id: 2,
@@ -32,7 +32,7 @@ function Home() {
       message: "AK-900 Wired Keyboard",
       offer: "$769",
       reoffer: "$1030",
-      show:<Link to='/keyboard'>Shop Now!</Link>
+      show: <Link to="/keyboard">Shop Now!</Link>,
     },
     {
       id: 3,
@@ -41,7 +41,7 @@ function Home() {
       message: "IPS LCD Gaming Monitor",
       offer: "$235",
       reoffer: "$500",
-      show:<Link to='/gamingmonitor'>Shop Now!</Link>
+      show: <Link to="/gamingmonitor">Shop Now!</Link>,
     },
     {
       id: 4,
@@ -51,7 +51,7 @@ function Home() {
       message: "S-series comfort chair",
       offer: "$400",
       reoffer: "$1200",
-      show:<Link to='/chair'>Shop Now!</Link>
+      show: <Link to="/chair">Shop Now!</Link>,
     },
   ];
 
@@ -92,31 +92,30 @@ function Home() {
     {
       id: 21,
       tag: "-50%",
-      image:
-        "https://m.media-amazon.com/images/I/61LVvVBG3wL.jpg",
+      image: "https://i.pinimg.com/736x/60/68/1f/60681f1d1ff6c59fcf3e2cb1c5cbfceb.jpg",
       message: "Normal Ladies dress",
       offer: "$577",
       reoffer: "$1130",
-      show:<Link to='/halvik'>Shop Now!</Link>
+      show: <Link to="/dress" target="blank">Shop Now!</Link>,
     },
     {
       id: 22,
       tag: "-30%",
-      image:
-        "https://m.media-amazon.com/images/I/41KgikJdsjL._SX466_.jpg",
+      image: "https://m.media-amazon.com/images/I/41KgikJdsjL._SX466_.jpg",
       message: "Gucci duffle bag",
       offer: "$769",
       reoffer: "$1130",
-      show:<Link to='/halvik'>Shop Now!</Link>
+      show: <Link to="/halvik">Shop Now!</Link>,
     },
     {
       id: 23,
       tag: "-20%",
-      image: "https://4.imimg.com/data4/NJ/EC/MY-8414203/computer-ram-500x500.jpg",
+      image:
+        "https://4.imimg.com/data4/NJ/EC/MY-8414203/computer-ram-500x500.jpg",
       message: "8 GB RAM",
       offer: "$1222",
       reoffer: "$1500",
-      show:<Link to='/halvik'>Shop Now!</Link>
+      show: <Link to="/halvik">Shop Now!</Link>,
     },
     {
       id: 24,
@@ -126,35 +125,14 @@ function Home() {
       message: "Tool set Briefcase",
       offer: "$890",
       reoffer: "$1110",
-      show:<Link to='/halvik'>Shop Now!</Link>
+      show: <Link to="/halvik">Shop Now!</Link>,
     },
   ];
-  
+
   return (
     <>
       <div className="m-20">
         <div>
-          {/* <div className='font-semibold'>
-            <div className='flex'>
-            <p>Woman's Fashion</p>
-            <FaArrowRight size={20}/>
-            </div>
-
-            <div className='flex'>
-            <p>Men's Fashion</p>
-            <FaArrowRight size={20}/>
-            </div>
-            
-            
-            <p>Electronics</p>
-            <p>Home & Lifestyle</p>
-            <p>Medicine</p>
-            <p>Sports & Outdoor</p>
-            <p>Baby's & Toys</p>
-            <p>Groceries & Pets</p>
-            <p>Health & Beauty</p>
-          </div> */}
-
           <div className="space-y-3 flex flex-col my-3">
             <h1 className="text-red-600 font-semibold">Today's</h1>
             <div className="flex justify-between">
@@ -165,17 +143,19 @@ function Home() {
               </div>
             </div>
             <div className="flex justify-between">
-              {CartItem1.map(({ id, tag, image, message, offer, reoffer,show }) => (
-                <Cart11
-                  key={id}
-                  Tag={tag}
-                  Image={image}
-                  Message={message}
-                  Offer={offer}
-                  Reoffer={reoffer}
-                  Show={show}
-                />
-              ))}
+              {CartItem1.map(
+                ({ id, tag, image, message, offer, reoffer, show }) => (
+                  <Cart11
+                    key={id}
+                    Tag={tag}
+                    Image={image}
+                    Message={message}
+                    Offer={offer}
+                    Reoffer={reoffer}
+                    Show={show}
+                  />
+                )
+              )}
             </div>
             <div className="flex items-center justify-center mt-3 w-full ">
               <div className="text-center bg-red-600 px-3 py-2 text-white rounded-xl cursor-pointer hover:scale-105 duration-200">
@@ -213,22 +193,21 @@ function Home() {
               </button>
             </div>
             <div className="flex justify-between">
-              {CartItem2.map(({ id, tag, image, message, offer, reoffer,show }) => (
-                <Cart11
-                  key={id}
-                  Tag={tag}
-                  Image={image}
-                  Message={message}
-                  Offer={offer}
-                  Reoffer={reoffer}
-                  Show={show}
-                />
-              ))}
+              {CartItem2.map(
+                ({ id, tag, image, message, offer, reoffer, show }) => (
+                  <Cart11
+                    key={id}
+                    Tag={tag}
+                    Image={image}
+                    Message={message}
+                    Offer={offer}
+                    Reoffer={reoffer}
+                    Show={show}
+                  />
+                )
+              )}
             </div>
-
           </div>
-
-
         </div>
       </div>
     </>
