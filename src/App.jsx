@@ -14,6 +14,7 @@ import Halvik from "./Components/allcarts/Halvik";
 import NotFound from "./Components/NotFound";
 import KeyBoard from "./Components/allcarts/KeyBoard";
 import GamingMonitor from "./Components/allcarts/GamingMonitor";
+import Chair from "./Components/allcarts/Chair";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/halvik" element={<Halvik/>} />
           <Route path="/keyboard" element={<KeyBoard/>} />
           <Route path="/gamingmonitor" element={<GamingMonitor/>} />
+          <Route path="/chair" element={<Chair/>} />
 
           <Route path="/Error" element={<NotFound/>} />
           <Route path='*' element={<Navigate to="/Error"/>} />

@@ -108,10 +108,7 @@ function KeyBoard() {
             </div>
             <h2 className="text-xl">$1110.00</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-              ullam magni maxime culpa dolor ab non, repudiandae excepturi quod
-              distinctio iste obcaecati modi nesciunt eos eius amet! Voluptas,
-              odit omnis.
+            This keyboard is essential for providing precision, comfort, and durability during gameplay.The switches are the heart of a mechanical keyboard, affecting how the keys feel and respond.These are the most popular for gaming because they offer tactile feedback and fast response times.
             </p>
             <hr />
             <div className="flex items-center space-x-3">
@@ -175,7 +172,7 @@ function KeyBoard() {
           <p className="text-red-500 font-semibold">Related Items</p>
         </div>
 
-        <div className="flex justify-between">
+        <div className="flex justify-between my-10">
           {
             CartItem1.map(({id,tag,image,message,offer,reoffer,show})=>(
               <Cart11

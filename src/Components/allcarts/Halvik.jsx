@@ -108,10 +108,7 @@ function Halvik() {
             </div>
             <h2 className="text-xl">$192.00</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-              ullam magni maxime culpa dolor ab non, repudiandae excepturi quod
-              distinctio iste obcaecati modi nesciunt eos eius amet! Voluptas,
-              odit omnis.
+            A good gaming mouse offers precision, comfort, and customizable features for gamers.It allows for faster and more precise movements. Adjustable DPI is a common feature.Comfort is key for long gaming sessions.
             </p>
             <hr />
             <div className="flex items-center space-x-3">
@@ -189,7 +186,7 @@ function Halvik() {
           </div>
         </div>
 
-        <div className="mt-12">
+        <div className="mt-12 my-10">
           <p className="text-red-500 font-semibold">Related Items</p>
         </div>
 

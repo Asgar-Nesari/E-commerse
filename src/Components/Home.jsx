@@ -51,7 +51,7 @@ function Home() {
       message: "S-series comfort chair",
       offer: "$400",
       reoffer: "$1200",
-      show:<Link to='/halvik'>Shop Now!</Link>
+      show:<Link to='/chair'>Shop Now!</Link>
     },
   ];
 

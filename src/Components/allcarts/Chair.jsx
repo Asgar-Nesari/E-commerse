@@ -6,27 +6,27 @@ import { MdRestartAlt } from "react-icons/md";
 import Cart11 from "../home/Cart11";
 import { Link } from "react-router-dom";
 
-function GamingMonitor() {
+function Chair() {
   const Images = [
     {
       id: 1,
       source:
-        "https://m.media-amazon.com/images/I/81-pHeH1pQL.jpg",
+        "https://cybeart.in/cdn/shop/products/ArcticWhite_1.jpg?v=1665298287",
     },
     {
       id: 2,
       source:
-        "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1683208037/Croma%20Assets/Computers%20Peripherals/Monitor/Images/236283_0_bs49qb.png?tr=w-600",
+        "https://media.ldlc.com/r1600/ld/products/00/06/10/30/LD0006103087.jpg",
     },
     {
       id: 3,
       source:
-        "https://media.croma.com/image/upload/v1683208049/Croma%20Assets/Computers%20Peripherals/Monitor/Images/236283_6_r2ayle.png",
+        "https://cdn.multitronic.fi/images/prod/4/B/CF-9010030-WW-7.jpg",
     },
     {
       id: 4,
       source:
-        "https://www.lg.com/lk/images/consumer-monitors/md07584897/gallery/d10.jpg",
+        "https://images-cdn.ubuy.co.in/664b199aa88be552943934a4-gtplayer-gaming-chair-with-footrest-and.jpg",
     },
   ];
 
@@ -90,25 +90,25 @@ function GamingMonitor() {
           <div className="flex justify-center items-center  w-full">
             <img
               className="w[400px] h-[400px]"
-              src="https://m.media-amazon.com/images/I/71vALVGjx+L.jpg"
+              src="https://www.betta.com.au/media/catalog/product/S/T/STCCOMPACT-860862_A_1718249679.JPG?optimize=medium&fit=bounds&height=700&width=700&canvas=700:700"
               alt=""
             />
           </div>
           <div className=" w-full space-y-2">
-            <h1 className="font-bold">IPS LCD Gaming Monitor </h1>
+            <h1 className="font-bold">S-series comfort chair </h1>
             <div className="flex space-x-2">
               <FaRegStar size={20} color="yellow" />
               <FaRegStar size={20} color="yellow" />
-              <FaRegStar size={20} color="yellow" />
-              <FaRegStar size={20} color="yellow" />
-              <FaRegStar size={20} color="yellow" />
-              <p className="text-gray-500">(100 Reviews)</p>
+              <FaRegStar size={20} color="gray" />
+              <FaRegStar size={20} color="gray" />
+              <FaRegStar size={20} color="gray" />
+              <p className="text-gray-500">(1M Reviews)</p>
               <p>|</p>
               <span className="text-green-400">In stack</span>
             </div>
-            <h2 className="text-xl">$1999.00</h2>
+            <h2 className="text-xl">$799.00</h2>
             <p>
-            A good option for gamers who want performance at a lower price point, especially if you have a mid-range GPU.Offers sharper visuals and is a great balance between performance and quality, especially for higher-end GPUs.
+            It is designed to provide comfort and support for long gaming sessions. Unlike typical office chairs, gaming chairs have features tailored to enhance the experience, such as ergonomic designs, lumbar support, and adjustable components.
             </p>
             <hr />
             <div className="flex items-center space-x-3">
@@ -133,7 +133,7 @@ function GamingMonitor() {
                   +
                 </p>
               </div>
-              <div className="bg-green-600 p-2 rounded-xl text-white">
+              <div className="bg-purple-600 p-2 rounded-xl text-white">
                 <button>Buy Now</button>
               </div>
               <div className="border px-2 py-3 rounded-md">
@@ -192,4 +192,4 @@ function GamingMonitor() {
   );
 }
 
-export default GamingMonitor;
+export default Chair;
